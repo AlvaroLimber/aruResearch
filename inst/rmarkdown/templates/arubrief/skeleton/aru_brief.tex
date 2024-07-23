@@ -1,0 +1,37 @@
+\usepackage{array}
+\usepackage{apacite}
+\usepackage{verbatim}
+\usepackage[spanish]{babel}
+\usepackage{booktabs}
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{graphicx}
+\usepackage{tabu}
+\usepackage[final]{pdfpages}
+\usepackage{pdflscape}
+\usepackage{tikz}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{titling}
+\usepackage{qrcode}
+\lhead{Fundación Aru}
+\rhead{Investigación de Calidad, Políticas basadas en evidencia}
+\definecolor{ARU}{HTML}{95A78D}
+\usepackage[defaultfam,tabular,lining,extralight]{montserrat}
+\fancypagestyle{firstpage}{
+\fancyhead[R]{\includegraphics[width=1in]{P:/_templates/rmd/arulogo.png}}
+\fancyhead[L]{BRIEFING}
+\fancyfoot[C]{\textbf{Investigación | FUNDACIÓN ARU} \\ \theauthor \\ \thedate}
+\fancyfoot[R]{ES}
+\fancyfoot[L]{\qrcode[height=0.5in]{https://www.aru.org.bo/}}
+\renewcommand{\footrulewidth}{1pt}
+}
+\AtBeginDocument{\let\maketitle\relax}
+\usepackage{sectsty}
+\sectionfont{\color{ARU}}
+\subsectionfont{\color{ARU}}
