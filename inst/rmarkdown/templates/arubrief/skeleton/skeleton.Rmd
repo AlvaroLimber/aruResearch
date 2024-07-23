@@ -2,7 +2,7 @@
 title: "Título"
 author: "Investigador/a Aru"
 bibliography: brief.bib
-csl: "apa.csl"
+csl: "resource/apa.csl"
 date: "Fecha"   
 fontsize: 11 pt
 output: 
@@ -12,8 +12,8 @@ output:
     toc: FALSE
     number_sections: TRUE
     includes:
-      in_header: "aru_brief.tex"
-      before_body: "before_brief.tex"
+      in_header: "resource/aru_brief.tex"
+      before_body: "resource/before_brief.tex"
 editor_options: 
   chunk_output_type: console
 ---
