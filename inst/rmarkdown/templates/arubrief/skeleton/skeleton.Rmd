@@ -1,6 +1,6 @@
 ---
 title: "Título"
-author: ""
+author: "Investigador/a Aru"
 bibliography: brief.bib
 csl: "apa.csl"
 date: "Fecha"   
