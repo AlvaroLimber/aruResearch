@@ -1,7 +1,7 @@
 ---
 title: "Título"
 author: "Investigador/a Aru"
-bibliography: brief.bib
+bibliography: resource/brief.bib
 csl: "resource/apa.csl"
 date: "Fecha"   
 fontsize: 11 pt
