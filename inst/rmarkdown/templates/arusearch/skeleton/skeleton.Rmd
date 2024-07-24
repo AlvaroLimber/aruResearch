@@ -1,18 +1,33 @@
 ---
-title: "Template Title"
-author: "Your Name"
-date: "The Date"
-output: output_format
+title: "**Documento de investigación:** Aru"
+author: 
+  - Autor 1\thanks{Investigador de Fundación Aru, los comentarios son bienvenidos a @aru.org.bo}
+  - Autor 2\thanks{Investigador de Fundación Aru}
+documentclass: extarticle
+classoption:
+  - a5paper
+  - 9pt
+bibliography: [resource/referencias.bib]
+csl: "resource/apa.csl"
+output: 
+  pdf_document:
+    number_section: TRUE
+    keep_tex: TRUE
+    includes:
+      in_header: "resource/aru1.tex"
+abstract:  "(Muy Pronto) 
+  \\break
+  \\break
+  \\textbf{Palabras Clave}: 
+  \\textbf{Clasificación JEL}: "
+editor_options: 
+  chunk_output_type: console
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r,echo=FALSE}
+knitr::opts_chunk$set(echo = F,warning = F,message = F)
+options(knitr.table.format = "latex")
 ```
+# Motivación
 
-## Adding an RMarkdown Template
 
-This file is what a user will see when they select your template. Make sure that you update the fields in the yaml header. In particular you will want to update the `output` field to whatever format your template requires.
-
-This is a good place to demonstrate special features that your template provides. Ideally it should knit out-of-the-box, or at least contain clear instructions as to what needs changing.
-
-Finally, be sure to remove this message!
