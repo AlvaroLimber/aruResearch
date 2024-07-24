@@ -6,10 +6,17 @@ output:
     includes:
       in_header: "resource/aru_beamer.tex"
 date: "2024-07-23"
+classoption: aspectratio=169 
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Motivación
+## Motivación
+
+## Objetivos
+
+  - Punto 1
+  - Punto 2
+  - Punto 3
