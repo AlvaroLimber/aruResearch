@@ -1,16 +1,20 @@
 Package: aruResearch
-Type: Package
-Title: What the Package Does (Title Case)
+Title: Plantillas para Investigación de Fundación Aru
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Alvaro Limber Chirino Gutierrez [aut, cre]
+Maintainer: Alvaro Limber Chirino Gutierrez <achirino@aru.org.bo>
+Description: Provee plantillas de RMarkdown estandarizadas para la creación de 
+    reportes para la Fundación Aru. Incluye formatos optimizados para consistencia 
+    institucional en investigaciones.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/AlvaroLimber/aruResearch, https://alvarolimber.github.io/aruResearch/
 BugReports: https://github.com/AlvaroLimber/aruResearch/issues
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Config/roxygen2/version: 8.0.0
+VignetteBuilder: knitr
