@@ -1,5 +1,6 @@
-More about what it does (maybe more than one line) Use four spaces when
-indenting paragraphs within the Description.
+Provee plantillas de RMarkdown estandarizadas para la creación de
+reportes para la Fundación Aru. Incluye formatos optimizados para
+consistencia institucional en investigaciones.
 
 # Package index
 
@@ -8,3 +9,9 @@ indenting paragraphs within the Description.
 - [`hello()`](https://alvarolimber.github.io/aruResearch/reference/hello.md)
   : Hello, World!
 
+# Articles
+
+### All vignettes
+
+- [Guía de uso: Plantillas
+  Aru](https://alvarolimber.github.io/aruResearch/articles/guia-de-uso.md):

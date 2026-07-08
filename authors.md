@@ -2,19 +2,20 @@
 
 ## Authors
 
-- **The package maintainer**. Maintainer.
+- **Alvaro Limber Chirino Gutierrez**. Maintainer.
 
 ## Citation
 
 Source:
 [`DESCRIPTION`](https://github.com/AlvaroLimber/aruResearch/blob/master/DESCRIPTION)
 
-it Ww (2026). *aruResearch: What the Package Does (Title Case)*. R
-package version 0.1.0, <https://github.com/AlvaroLimber/aruResearch>.
+Gutierrez ALC (2026). *aruResearch: Plantillas para Investigación de
+Fundación Aru*. R package version 0.1.0,
+<https://github.com/AlvaroLimber/aruResearch>.
 
     @Manual{,
-      title = {aruResearch: What the Package Does (Title Case)},
-      author = {Who wrote it},
+      title = {aruResearch: Plantillas para Investigación de Fundación Aru},
+      author = {Alvaro Limber Chirino Gutierrez},
       year = {2026},
       note = {R package version 0.1.0},
       url = {https://github.com/AlvaroLimber/aruResearch},
