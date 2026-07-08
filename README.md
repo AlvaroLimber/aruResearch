@@ -6,9 +6,11 @@ técnicos de la Fundación Aru.
 
 ## Plantillas incluidas
 
-- `arubeamer`: Presentaciones ejecutivas.
-- `arubrief`: Reportes breves.
-- `arusearch`: Investigación cuantitativa estándar.
+- `arubeamer`: Para una presentación en beamer en un formato
+  institucional.
+- `arubrief`: Para generar un Brief institucional.
+- `arusearch`: Para generar una salida para la revista Aru Search.
+- `arunote`: Para notas metodológicas
 
 ## Instalación
 
