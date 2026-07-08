@@ -1,0 +1,10 @@
+More about what it does (maybe more than one line) Use four spaces when
+indenting paragraphs within the Description.
+
+# Package index
+
+## All functions
+
+- [`hello()`](https://alvarolimber.github.io/aruResearch/reference/hello.md)
+  : Hello, World!
+
