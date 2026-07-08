@@ -1,4 +1,24 @@
 url: https://alvarolimber.github.io/aruResearch/
-template:
-  bootstrap: 5
 
+template:
+  params:
+    bootswatch: flatly
+
+navbar:
+  title: aruResearch
+  left:
+    - text: "Inicio"
+      href: index.html
+    - text: "Tutoriales"
+      href: articles/guia-de-uso.html
+    - text: "Referencia"
+      href: reference/index.html
+  right:
+    - icon: fa-github
+      href: https://github.com/AlvaroLimber/aruResearch
+
+home:
+  title: Plantillas de Reportes para Fundación Aru
+  description: >
+    Herramientas RMarkdown estandarizadas para el flujo de trabajo en
+    investigación estadística y análisis de datos.
