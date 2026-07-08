@@ -9,10 +9,8 @@ navbar:
   left:
     - text: "Inicio"
       href: index.html
-    - text: "Tutoriales"
+    - text: "Tutorial"
       href: articles/guia-de-uso.html
-    - text: "Referencia"
-      href: reference/index.html
   right:
     - icon: fa-github
       href: https://github.com/AlvaroLimber/aruResearch
